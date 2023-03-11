@@ -30,20 +30,26 @@ section {
     align-items: baseline;
 }
 
-.logo div, .navigation div, .settings div {
+
+
+.heading div, .navigation div, .settings div {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-items: center;
     
 }
 
+.logo i {
+    font-size: 3rem;
+    
+}
 
 .header {
     grid-column: 2/3;
-    grid-row: 1/2;
+    
 }
 
 .articles {
     grid-column: 2/3;
-    grid-row: 2/;
 }
