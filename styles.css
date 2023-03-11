@@ -30,8 +30,6 @@ section {
     align-items: baseline;
 }
 
-
-
 .heading div, .navigation div, .settings div {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -42,14 +40,82 @@ section {
 
 .logo i {
     font-size: 3rem;
-    
 }
 
 .header {
     grid-column: 2/3;
-    
+    background-color: #ecfeff;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.search-area {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.search-area input {
+    justify-self: stretch;
+    padding: .5em;
+    border: none;
+    background-color: #a5f3fc;
+    border-radius: 10px;
+}
+
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    align-items: center;
+    justify-items: end;
+}
+
+.profile p {
+    justify-self: start;
+}
+
+.profile .avatar {
+    justify-self: center;
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.welcome p {
+    justify-self: start;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: stretch;
+    gap: 1em;
+}
+
+.buttons button {
+    font-size: 100%;
+    padding: .5em;
+    border-radius: .6em;
+    border: none;
+    background-color: #06b6d4;
+    color: #effeff;
+    font-weight: bolder;
 }
 
 .articles {
     grid-column: 2/3;
+    background-color: #a5f3fc;
 }

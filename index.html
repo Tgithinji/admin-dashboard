@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"  />
 </head>
 <body>
@@ -64,24 +66,22 @@
         <!-- header section -->
         <section class="header">
             <div class="search-area">
-                <i class="fa-solid fa-magnifying-glass"></i>
+                <label for="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </label>
                 <input type="search" name="search" id="search">
             </div>
-            <div>
-                <i class="fa-sharp fa-solid fa-bell-on"></i>
-            </div>
-            <div>
-                <!-- add avatar here -->
-            </div>
-            <div>
+            <div class="profile">
+                <i class="material-icons custom">add_alert</i>
+                <img src="./img/—Pngtree—user vector avatar_4830521.png" alt="user avatar" class="avatar">
                 <p>Morgan Oakley</p>
             </div>
-            <div>
-                <!-- add avatar here -->
+            <div class="welcome">
+                <img src="./img/—Pngtree—user vector avatar_4830521.png" alt="user avatar" class="avatar">
                 <p>Hi there, <br>
                 Morgan Oakley(@morgan)</p>
             </div>
-            <div>
+            <div class="buttons">
                 <button type="button">New</button>
                 <button type="button">Upload</button>
                 <button type="button">Share</button>
